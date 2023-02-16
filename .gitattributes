@@ -1,0 +1,1 @@
+1_make_HLA_database/IMGTHLA_all_alleles_FINAL.fa filter=lfs diff=lfs merge=lfs -text
