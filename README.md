@@ -1,5 +1,6 @@
 # scHLApers
 Code to run the scHLApers pipeline for quantifying single-cell HLA expression using personalized reference genomes.
+![Overview](images/overview.png)
 
 ## Requirements & Dependencies
 R program requires (listed version or higher):
@@ -47,4 +48,4 @@ The output of scHLApers is a genes by cells expression matrix, with improved cla
 For questions and assistance not answered in tutorials, you can contact Joyce Kang (joyce_kang AT hms.harvard DOT edu).
 
 ## Reproducing results from the manuscript
-Code to reproduce the figures and analyses from Kang et al. will be available at a separate repository.
+Code to reproduce the figures and analyses from Kang et al. will be available at [TODO].
