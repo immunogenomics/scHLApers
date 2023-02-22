@@ -73,7 +73,7 @@ while ! $finished; do
           --soloFeatures GeneFull_Ex50pAS \
           --soloBarcodeReadLength 0 \
           --soloMultiMappers EM --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within \
-          --readFilesType SAM SE --readFilesCommand samtools view -F 0x100 \ 
+          --readFilesType SAM SE --readFilesCommand samtools view -F 0x100 \
           --soloInputSAMattrBarcodeSeq CR UR --soloInputSAMattrBarcodeQual CY UY \
           --readFilesSAMattrKeep None \
           --outSAMattributes NH HI nM AS CR UR GX GN CB UB \
