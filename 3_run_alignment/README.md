@@ -25,5 +25,5 @@ Do not modify (required for scHLApers):
 The example input data is in BAM format. If your input files are FASTQ format, input the FASTQ files in the order of:
 `--readFilesIn cDNAfragmentSequence.fastq.gz CellBarcodeUMIsequence.fastq.gz`
 
-Also, replace the line:
-`--readFilesType SAM SE --readFilesCommand samtools view -F 0x100 \` with `--readFilesCommand zcat`.
+Also, replace the arguments:
+`--readFilesType SAM SE --readFilesCommand samtools view -F 0x100` with `--readFilesCommand zcat`.
