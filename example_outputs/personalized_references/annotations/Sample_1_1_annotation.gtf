@@ -1,0 +1,16 @@
+IMGT_A*02:01:01:01	IMGTHLA	exon	1	4640	.	+	.	transcript_id "IMGT_A*02:01:01:01"; gene_id "IMGT_A"; gene_name "IMGT_A";
+IMGT_A*25:01:01:01	IMGTHLA	exon	1	4640	.	+	.	transcript_id "IMGT_A*25:01:01:01"; gene_id "IMGT_A"; gene_name "IMGT_A";
+IMGT_C*07:02:01:01	IMGTHLA	exon	1	4318	.	+	.	transcript_id "IMGT_C*07:02:01:01"; gene_id "IMGT_C"; gene_name "IMGT_C";
+IMGT_C*12:03:01:01	IMGTHLA	exon	1	4303	.	+	.	transcript_id "IMGT_C*12:03:01:01"; gene_id "IMGT_C"; gene_name "IMGT_C";
+IMGT_B*07:02:01:01	IMGTHLA	exon	1	4081	.	+	.	transcript_id "IMGT_B*07:02:01:01"; gene_id "IMGT_B"; gene_name "IMGT_B";
+IMGT_B*39:01:01:01	IMGTHLA	exon	1	4070	.	+	.	transcript_id "IMGT_B*39:01:01:01"; gene_id "IMGT_B"; gene_name "IMGT_B";
+IMGT_DRB1*04:04:01:01	IMGTHLA	exon	1	15243	.	+	.	transcript_id "IMGT_DRB1*04:04:01:01"; gene_id "IMGT_DRB1"; gene_name "IMGT_DRB1";
+IMGT_DRB1*07:01:01:01	IMGTHLA	exon	1	16110	.	+	.	transcript_id "IMGT_DRB1*07:01:01:01"; gene_id "IMGT_DRB1"; gene_name "IMGT_DRB1";
+IMGT_DQA1*02:01:01:01	IMGTHLA	exon	1	18803	.	+	.	transcript_id "IMGT_DQA1*02:01:01:01"; gene_id "IMGT_DQA1"; gene_name "IMGT_DQA1";
+IMGT_DQA1*03:01:01:01	IMGTHLA	exon	1	18837	.	+	.	transcript_id "IMGT_DQA1*03:01:01:01"; gene_id "IMGT_DQA1"; gene_name "IMGT_DQA1";
+IMGT_DQB1*02:01:01:01	IMGTHLA	exon	1	9295	.	+	.	transcript_id "IMGT_DQB1*02:01:01:01"; gene_id "IMGT_DQB1"; gene_name "IMGT_DQB1";
+IMGT_DQB1*03:02:01:01	IMGTHLA	exon	1	8941	.	+	.	transcript_id "IMGT_DQB1*03:02:01:01"; gene_id "IMGT_DQB1"; gene_name "IMGT_DQB1";
+IMGT_DPA1*01:03:01:01	IMGTHLA	exon	1	16457	.	+	.	transcript_id "IMGT_DPA1*01:03:01:01"; gene_id "IMGT_DPA1"; gene_name "IMGT_DPA1";
+IMGT_DPA1*01:08:matching_gen	IMGTHLA	exon	1	16458	.	+	.	transcript_id "IMGT_DPA1*01:08:matching_gen"; gene_id "IMGT_DPA1"; gene_name "IMGT_DPA1";
+IMGT_DPB1*03:01:01:01	IMGTHLA	exon	1	13956	.	+	.	transcript_id "IMGT_DPB1*03:01:01:01"; gene_id "IMGT_DPB1"; gene_name "IMGT_DPB1";
+IMGT_DPB1*15:01:01:01	IMGTHLA	exon	1	13969	.	+	.	transcript_id "IMGT_DPB1*15:01:01:01"; gene_id "IMGT_DPB1"; gene_name "IMGT_DPB1";
