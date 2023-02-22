@@ -1,2 +1,4 @@
 1_make_HLA_database/IMGTHLA_all_alleles_FINAL.fa filter=lfs diff=lfs merge=lfs -text
 example_data/inputs/Sample*.bam filter=lfs diff=lfs merge=lfs -text
+example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx filter=lfs diff=lfs merge=lfs -text
+example_outputs/STARsolo_results/Sample_1050_1051_scHLApers/Sample_1050_1051_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx filter=lfs diff=lfs merge=lfs -text
