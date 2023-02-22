@@ -1,3 +1,1 @@
 1_make_HLA_database/IMGTHLA_all_alleles_FINAL.fa filter=lfs diff=lfs merge=lfs -text
-example_data/inputs/Sample_1_1.bam filter=lfs diff=lfs merge=lfs -text
-example_data/inputs/Sample_2_2.bam filter=lfs diff=lfs merge=lfs -text
