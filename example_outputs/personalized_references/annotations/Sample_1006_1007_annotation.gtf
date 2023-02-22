@@ -1,0 +1,14 @@
+IMGT_A*02:01:01:01	IMGTHLA	exon	1	4640	.	+	.	transcript_id "IMGT_A*02:01:01:01"; gene_id "IMGT_A"; gene_name "IMGT_A";
+IMGT_A*24:02:01:01	IMGTHLA	exon	1	4625	.	+	.	transcript_id "IMGT_A*24:02:01:01"; gene_id "IMGT_A"; gene_name "IMGT_A";
+IMGT_C*02:02:02:01	IMGTHLA	exon	1	4295	.	+	.	transcript_id "IMGT_C*02:02:02:01"; gene_id "IMGT_C"; gene_name "IMGT_C";
+IMGT_C*03:03:01:01	IMGTHLA	exon	1	4304	.	+	.	transcript_id "IMGT_C*03:03:01:01"; gene_id "IMGT_C"; gene_name "IMGT_C";
+IMGT_B*15:01:01:01	IMGTHLA	exon	1	4094	.	+	.	transcript_id "IMGT_B*15:01:01:01"; gene_id "IMGT_B"; gene_name "IMGT_B";
+IMGT_B*51:01:01:01	IMGTHLA	exon	1	4085	.	+	.	transcript_id "IMGT_B*51:01:01:01"; gene_id "IMGT_B"; gene_name "IMGT_B";
+IMGT_DRB1*11:01:01:01	IMGTHLA	exon	1	13921	.	+	.	transcript_id "IMGT_DRB1*11:01:01:01"; gene_id "IMGT_DRB1"; gene_name "IMGT_DRB1";
+IMGT_DRB1*13:01:01:01	IMGTHLA	exon	1	13935	.	+	.	transcript_id "IMGT_DRB1*13:01:01:01"; gene_id "IMGT_DRB1"; gene_name "IMGT_DRB1";
+IMGT_DQA1*01:03:01:01	IMGTHLA	exon	1	18885	.	+	.	transcript_id "IMGT_DQA1*01:03:01:01"; gene_id "IMGT_DQA1"; gene_name "IMGT_DQA1";
+IMGT_DQA1*05:01:01:01	IMGTHLA	exon	1	18929	.	+	.	transcript_id "IMGT_DQA1*05:01:01:01"; gene_id "IMGT_DQA1"; gene_name "IMGT_DQA1";
+IMGT_DQB1*03:01:01:01	IMGTHLA	exon	1	9046	.	+	.	transcript_id "IMGT_DQB1*03:01:01:01"; gene_id "IMGT_DQB1"; gene_name "IMGT_DQB1";
+IMGT_DQB1*06:03:01:01	IMGTHLA	exon	1	8918	.	+	.	transcript_id "IMGT_DQB1*06:03:01:01"; gene_id "IMGT_DQB1"; gene_name "IMGT_DQB1";
+IMGT_DPA1*01:03:01:01	IMGTHLA	exon	1	16457	.	+	.	transcript_id "IMGT_DPA1*01:03:01:01"; gene_id "IMGT_DPA1"; gene_name "IMGT_DPA1";
+IMGT_DPB1*04:01:01:01	IMGTHLA	exon	1	14021	.	+	.	transcript_id "IMGT_DPB1*04:01:01:01"; gene_id "IMGT_DPB1"; gene_name "IMGT_DPB1";
