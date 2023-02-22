@@ -7,18 +7,18 @@ Arguments:
 
 ## STARsolo parameters
 
-Modify based on your dataset:
-- UMIlen (12 for 10x v3, 10 for 10x v2)
-- whitelist (barcode whitelist file)
-- soloType (CB_UMI_Simple for droplet-based data)
-- cell_meta (.csv file containing cell metadata, used by the `starsolo_to_genesXcells.R` to filter the resulting raw output expression matrix to remove empty droplets. If you do not have a list of desired cells, see `--soloCellFilter` option in the [STARsolo manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)
-- numThreads (for parallelization)
-- readsDir (directory with input bam files named "XXX.bam", where "XXX" is sample name)
-- Change filepaths for dir (output directory), masked GRCh38 genome and annotation files, and personalized reference files, as needed.
+Modify the script based on your dataset:
+- `UMIlen` (12 for 10x v3, 10 for 10x v2)
+- `whitelist` (barcode whitelist file)
+- `soloType` (CB_UMI_Simple for droplet-based data)
+- `cell_meta` (.csv file containing cell metadata, used by the `starsolo_to_genesXcells.R` to filter the resulting raw output expression matrix to remove empty droplets. If you do not have a list of desired cells, see `--soloCellFilter` option in the [STARsolo manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)
+- `numThreads` (for parallelization)
+- `readsDir` (directory with input bam files named "XXX.bam", where "XXX" is sample name)
+- Change filepaths for `dir` (output directory), masked GRCh38 genome and annotation files, and personalized reference files, as needed.
 
 Do not modify (required for scHLApers):
-- soloFeatures (GeneFull_Ex50pAS required for intronic and exonic counting)
-- soloMultiMappers (EM required for distributing multimapping reads)
+- `soloFeatures` (GeneFull_Ex50pAS required for intronic and exonic counting)
+- `soloMultiMappers` (EM required for distributing multimapping reads)
 
 ## How to change the script to use FASTQ format for input
 
