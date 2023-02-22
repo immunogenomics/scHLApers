@@ -11,20 +11,21 @@ module load samtools # can replace with your installation
 
 # Set up input files and parameters
 sample=$1 # sample name
+STAR_executable=$2 # e.g. /PHShome/jbk37/tools/STAR-2.7.10a/source/STAR
+numThreads=4
 UMIlen=10 # 12 for 10x v3, 10 for 10x v2
-readsDir="../example_data/mock_cohort_bams/"
+soloType="CB_UMI_Simple" # type of CB/UMI used
 whitelist="../example_data/barcode_whitelists/737K-august-2016.txt" # 10x v2 whitelist
 # For 10x data, whitelists are packaged with Cell Ranger:
 # path/to/cellranger/1.3.1/cellranger-cs/1.3.1/lib/python/cellranger/barcodes/737K-august-2016.txt
 
-numThreads=4
-soloType="CB_UMI_Simple" # type of CB/UMI used
+readsDir="../example_data/inputs/"
 samtools collate ${readsDir}${sample}.bam ${readsDir}${sample}_shuffled # shuffle the input bam file
 input_bam=${readsDir}${sample}_shuffled.bam
 
 # Path to script to make genesXcells using a list of cell barcodes passing QC
 make_exp_script="starsolo_to_genesXcells.R"
-cell_meta="../example_data/cell_meta_mock_cohort.csv"
+cell_meta="../example_data/cell_meta_example.csv"
 
 ##########################
 # Run scHLApers Pipeline
@@ -58,20 +59,17 @@ while ! $finished; do
     cat $GRCh38_annot $perAnnot > $combPerAnnot
 
     # Generate Genome Index
-    # !!! replace STAR executable with your version
-    CMD="/PHShome/jbk37/tools/STAR-2.7.10a/source/STAR --runThreadN $numThreads \
+    CMD="$STAR_executable --runThreadN $numThreads \
         --runMode genomeGenerate --genomeDir $genomeDir --genomeFastaFiles $combPerGenome \
         --sjdbGTFfile $combPerAnnot --outTmpDir ${out}_STARtmp_genome_generate"
     $CMD
 
     # Align Reads
-    # !!! replace STAR executable with your version
-    CMD="/PHShome/jbk37/tools/STAR-2.7.10a/source/STAR --genomeDir $genomeDir --readFilesIn $input_bam \
+    CMD="$STAR_executable --genomeDir $genomeDir --readFilesIn $input_bam \
           --runThreadN $numThreads --runDirPerm All_RWX --soloUMIlen $UMIlen \
           --outFileNamePrefix $out --soloType $soloType --soloCBwhitelist $whitelist \
           --soloCBmatchWLtype 1MM_multi_Nbase_pseudocounts --soloUMIdedup 1MM_CR \
           --soloFeatures GeneFull_Ex50pAS \
-          --soloBarcodeReadLength 0 \
           --soloMultiMappers EM --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within \
           --readFilesType SAM SE --readFilesCommand samtools view -F 0x100 \
           --soloInputSAMattrBarcodeSeq CR UR --soloInputSAMattrBarcodeQual CY UY \

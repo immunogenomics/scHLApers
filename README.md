@@ -23,7 +23,7 @@ Data:
 * Cell barcode whitelist: more info [here](https://kb.10xgenomics.com/hc/en-us/articles/115004506263-What-is-a-barcode-whitelist-)
 
 ## Pipeline and example data
-Each step has its own directory with necessary scripts and a tutorial walking through the steps. The [example_data](example_data) and [example_output](example_outputs) directories contain example input and output files for 2 samples. The raw scRNA-seq data for the example was obtained from [Randolph et al. Science 2022](https://www.science.org/doi/10.1126/science.abg0928) study, publicly available on GEO (GSE162632).
+Each step has its own directory with necessary scripts and a tutorial walking through the steps. The [example_data](example_data) and [example_output](example_outputs) directories contain example input and output files for 2 samples. The raw scRNA-seq data for the example was obtained from [Yazar et al. Science 2022](https://pubmed.ncbi.nlm.nih.gov/35389779/) study, publicly available on GEO (GSE196830).
 
 ### Input
 The inputs to scHLApers are:
@@ -42,7 +42,7 @@ The [tutorial](2_make_personalized_refs/tutorial_make_pers_and_mask_GRCh38.ipynb
 Example scripts for how to run [STARsolo](https://github.com/alexdobin/STAR) for read alignment and expression quantification in single-cell data. Script will need to be modified based on the specifics of your dataset (e.g. UMI length, input format, barcode whitelist path, STAR executable). Please see the [STAR manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf) for all options.
 
 ### Outputs
-The output of scHLApers is a genes by cells expression matrix, with improved classical HLA expression estimates. In the example output, we have filtered the raw STARsolo counts matrix (to remove empty droplets) using a provided list of cell barcodes (see `example_data/cell_meta_mock_cohort.csv`).
+The output of scHLApers is a genes by cells expression matrix, with improved classical HLA expression estimates. In the example output, we have filtered the raw STARsolo counts matrix (to remove empty droplets) using a provided list of cell barcodes (see `example_data/cell_meta_example.csv`).
 
 ## Support
 For questions and assistance not answered in tutorials, you can contact Joyce Kang (joyce_kang AT hms.harvard DOT edu).
