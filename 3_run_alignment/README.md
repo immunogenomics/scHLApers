@@ -27,3 +27,13 @@ The example input data is in BAM format. If your input files are FASTQ format, i
 
 Also, replace the arguments:
 `--readFilesType SAM SE --readFilesCommand samtools view -F 0x100` with `--readFilesCommand zcat`.
+
+## Output files
+
+The raw counts matrix output by the pipeline for example `Sample_1006_1007` can be found [here](../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx):
+`../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx`
+
+A filtered version is located [here](../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/exp_EM.rds) (read into R using `readRDS`):
+`../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/exp_EM.rds`
+
+Note: The classical HLA genes are named `IMGT_A`, `IMGT_C`, `IMGT_B`, `IMGT_DRB1`, `IMGT_DQA1`, `IMGT_DQB1`, `IMGT_DPA1`, `IMGT_DPB1`.
