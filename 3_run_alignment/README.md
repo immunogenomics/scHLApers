@@ -30,6 +30,8 @@ Also, replace the arguments:
 
 ## Output files
 
+The output of scHLApers is a genes by cells expression matrix, with improved classical HLA expression estimates. In the example output, we have filtered the raw STARsolo counts matrix (to remove empty droplets) using a provided list of cell barcodes (see `example_data/cell_meta_example.csv`).
+
 The raw counts matrix output by the pipeline for example `Sample_1006_1007` can be found [here](../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx):
 `../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx`
 

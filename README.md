@@ -44,6 +44,14 @@ Example scripts for how to run [STARsolo](https://github.com/alexdobin/STAR) for
 ### Outputs
 The output of scHLApers is a genes by cells expression matrix, with improved classical HLA expression estimates. In the example output, we have filtered the raw STARsolo counts matrix (to remove empty droplets) using a provided list of cell barcodes (see `example_data/cell_meta_example.csv`).
 
+The raw counts matrix output by the pipeline for example `Sample_1006_1007` can be found [here](../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx):
+`../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/Sample_1006_1007_scHLApers_Solo.out/GeneFull_Ex50pAS/raw/UniqueAndMult-EM.mtx`
+
+A filtered version is located [here](../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/exp_EM.rds) (read into R using `readRDS`):
+`../example_outputs/STARsolo_results/Sample_1006_1007_scHLApers/exp_EM.rds`
+
+Note: The classical HLA genes are named `IMGT_A`, `IMGT_C`, `IMGT_B`, `IMGT_DRB1`, `IMGT_DQA1`, `IMGT_DQB1`, `IMGT_DPA1`, `IMGT_DPB1`.
+
 ## Support
 For questions and assistance not answered in tutorials, you can contact Joyce Kang (joyce_kang AT hms.harvard DOT edu).
 
