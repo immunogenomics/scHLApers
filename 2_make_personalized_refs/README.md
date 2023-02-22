@@ -9,4 +9,4 @@ You will need to download the original reference genome and GTF files to [../exa
 We recommend filtering the starting GTF file to genes types of interest (e.g. protein_coding, lncRNA, TCR, Ig) using the steps in [steps_to_filter_original_gtf.sh](steps_to_filter_original_gtf.sh).
 
 ## Tutorial
-The [tutorial](2_make_personalized_refs/tutorial_make_pers_and_mask_GRCh38.ipynb) demonstrates how to generate personalized contigs (FASTA) and annotations (GTF) files (that will be combined with the masked reference) and how to mask the reference files.
+The [tutorial](tutorial_make_pers_and_mask_GRCh38.ipynb) demonstrates how to generate personalized contigs (FASTA) and annotations (GTF) files (that will be combined with the masked reference) and how to mask the reference files.
