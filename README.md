@@ -28,7 +28,7 @@ Each step has its own directory with necessary scripts and a tutorial walking th
 ### Input
 The inputs to scHLApers are:
 * Raw scRNA-seq data (either FASTQ or BAM format)
-* HLA allele calls (in CSV format, labeled as "SampleX_alleles.csv", see `example_data/mock_cohort_alleles` for format)
+* HLA allele calls (in CSV format, labeled as "SampleX_alleles.csv", see `example_data/inputs/alleles` for format)
 
 See the [HLA analyses tutorial](https://github.com/immunogenomics/HLA_analyses_tutorial) from [Sakaue et al.](https://www.biorxiv.org/content/10.1101/2022.08.24.504550v1) for protocol for imputing HLA alleles from genotype array data.
 
