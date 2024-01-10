@@ -1,5 +1,5 @@
 # scHLApers
-Code to run the scHLApers pipeline for quantifying **s**ingle-**c**ell **HLA** expression using **pers**onalized reference genomes.
+Code to run the scHLApers pipeline for quantifying **s**ingle-**c**ell **HLA** expression using **pers**onalized reference genomes (Kang et al., Nat Genetics 2023).
 ![Overview](images/overview.png)
 
 ## Requirements
